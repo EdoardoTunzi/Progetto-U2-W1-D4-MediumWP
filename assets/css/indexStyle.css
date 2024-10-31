@@ -1,0 +1,100 @@
+body {
+  font-family: "Roboto", sans-serif;
+  font-weight: 400;
+  font-size: 17px;
+}
+
+/*HEADER & NAV*/
+header {
+  font-family: "Roboto", sans-serif;
+  font-weight: 400;
+  font-size: 17px;
+  background-color: #ffc017;
+  display: flex;
+  align-items: center;
+  padding-block: 1.5rem;
+  padding-inline: 13rem;
+  justify-content: space-between;
+  border-bottom: 1px solid black;
+}
+nav {
+  display: inline-block;
+}
+nav ul li {
+  display: inline-block;
+  margin-inline: 15px;
+}
+header img {
+  width: 200px;
+}
+#getStarted {
+  background-color: #191919;
+  color: white;
+  font-weight: 400;
+  padding-block: 16px;
+  border-radius: 25px;
+  padding-inline: 22px;
+}
+/*HERO*/
+.hero {
+  background-color: #ffc017;
+  padding-inline: 13rem;
+  border-bottom: 1px solid black;
+}
+#hero-content {
+  width: 50%;
+  padding-block: 7rem;
+}
+#hero-content h1 {
+  font-family: "Spectral", serif;
+  font-size: 8.3rem;
+  margin-bottom: 2rem;
+}
+
+#hero-content span {
+  display: inline-block;
+  font-size: 2rem;
+  font-weight: 300;
+  width: 80%;
+}
+#hero-content button {
+  display: block;
+  background-color: #191919;
+  color: white;
+  font-size: 1.5rem;
+  padding-block: 0.8rem;
+  padding-inline: 4rem;
+  border-style: none;
+  border-radius: 25px;
+  margin-top: 4rem;
+}
+/*TRENDING*/
+.trending {
+  padding-inline: 13rem;
+  border-bottom: 1px solid lightgray;
+  padding-block: 3rem;
+}
+#trend-title {
+  display: flex;
+  align-items: center;
+  gap: 14px;
+  font-size: 1rem;
+  font-weight: bold;
+  letter-spacing: 1px;
+}
+#trend-title img {
+  width: 2rem;
+}
+/*trend card*/
+.trend-card {
+  display: flex;
+}
+.trend-card > span {
+  font-size: 2rem;
+  font-weight: bold;
+  color: #d3d3d3a6;
+  margin-right: 10px;
+}
+.avatar img {
+  border-radius: 50px;
+}
