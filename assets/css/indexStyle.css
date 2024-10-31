@@ -133,3 +133,10 @@ header img {
   flex-wrap: wrap;
   justify-content: space-between;
 }
+/*============  MAIN  ============================*/
+
+.article-card {
+  display: flex;
+}
+.article-content h2 {
+}
