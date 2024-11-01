@@ -159,7 +159,9 @@ main {
 .article-card {
   display: flex;
   margin-bottom: 4rem;
+  align-items: center;
 }
+
 .article-content {
   width: 36rem;
 }
@@ -169,12 +171,12 @@ main {
 }
 .article-content span {
   display: inline-block;
-  font-size: 1.2rem;
-  font-weight: 300;
   margin-block: 0.5rem;
 }
+.username {
+}
 .subtitle {
-  color: #545353;
+  color: #878585;
   width: 35rem;
 }
 .info-wrapper {
@@ -185,7 +187,7 @@ main {
 .bookmark {
   position: absolute;
   bottom: 5px;
-  left: 31rem;
+  left: 32rem;
   width: 5%;
 }
 .category {
@@ -194,15 +196,15 @@ main {
   border-radius: 15px;
   font-size: 17px;
   text-align: center;
-  color: #545353;
+  color: #878585;
   margin-inline: 0.5rem;
 }
 .star {
   width: 1.5rem;
 }
 .article-img {
-  width: 250px;
-  height: 170px;
+  width: 240px;
+  height: auto;
 }
 .article-img img {
   width: 100%;
