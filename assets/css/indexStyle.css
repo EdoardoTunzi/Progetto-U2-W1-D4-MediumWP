@@ -93,6 +93,9 @@ header img {
   border-bottom: 1px solid lightgray;
   padding-block: 3rem;
 }
+.username {
+  font-weight: 500;
+}
 #trend-title {
   display: flex;
   align-items: center;
@@ -174,10 +177,12 @@ main {
   margin-block: 0.5rem;
 }
 .username {
+  font-weight: 500;
 }
 .subtitle {
   color: #878585;
   width: 35rem;
+  font-size: 18px;
 }
 .info-wrapper {
   display: flex;
