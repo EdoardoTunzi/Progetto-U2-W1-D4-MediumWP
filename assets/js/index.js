@@ -6,7 +6,7 @@ window.addEventListener("scroll", function () {
   const headerHeight = header.offsetHeight;
   const heroBottom = hero.offsetTop + hero.offsetHeight;
 
-  const offSet = 10;
+  const offSet = 5;
   if (window.scrollY >= heroBottom - headerHeight - offSet) {
     header.style.backgroundColor = "#ffffff";
     btn.style.backgroundColor = "#1a8917";
